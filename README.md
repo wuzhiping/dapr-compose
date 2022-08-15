@@ -1,6 +1,24 @@
 # dapr-compose
 https://dapr.io/
 
+# auth for api gateway
+## sudo htpasswd -c htpasswd uid
+<pre>
+    location /v1.0/ {
+        auth_basic           "DAPR Service Area ";
+        auth_basic_user_file conf/htpasswd;
+        # ...
+        # ...
+        deny  192.168.1.2;
+        allow 192.168.1.1/24;
+        allow 127.0.0.1;
+        deny  all;
+    }
+    location /public/ {
+       auth_basic off;
+    }
+</pre>
+
 <pre>
   app01:
     image: shawoo/openresty
