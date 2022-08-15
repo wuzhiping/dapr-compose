@@ -53,6 +53,16 @@ https://dapr.io/
 
 # https://blog.hypriot.com/
 <pre>
+REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
+daprio/daprd                edge-linux-arm      85c7c18ec35b        2 days ago          110MB
+daprio/dapr                 1.8.4-linux-arm     6e73a117ed73        3 days ago          225MB
+hypriot/rpi-mysql           latest              4f3cbdbc3bdb        4 years ago         209MB
+hypriot/rpi-node            latest              c7a24b17fa2e        4 years ago         494MB
+hypriot/rpi-consul          latest              879ac05d5353        6 years ago         19.7MB
+hypriot/rpi-redis           latest              c06243ca8f1b        6 years ago         117MB
+hypriot/rpi-busybox-httpd   latest              fbd9685c5ffc        7 years ago         2.16MB
+</pre>
+<pre>
 version: '2'
 services:
   placement:
