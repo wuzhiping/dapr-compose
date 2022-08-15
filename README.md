@@ -55,14 +55,17 @@ https://dapr.io/
 <pre>
 REPOSITORY                  TAG                   IMAGE ID            CREATED             SIZE
 daprio/daprd                edge-linux-arm        85c7c18ec35b        2 days ago          110MB
-postgres                    latest                3562ae2df2fb        3 days ago          312MB
 daprio/dapr                 1.8.4-linux-arm       6e73a117ed73        3 days ago          225MB
+
+postgres                    latest                3562ae2df2fb        3 days ago          312MB
 postgrest/postgrest         v9.0.0                c132f4ce0634        8 months ago        281MB
+
+hypriot/rpi-redis           latest                c06243ca8f1b        6 years ago         117MB
 pabloromeo/zipkin-arm       zipkin-slim-arm32v7   f8c50f0d07bf        2 years ago         716MB
+
+hypriot/rpi-consul          latest                879ac05d5353        6 years ago         19.7MB
 hypriot/rpi-mysql           latest                4f3cbdbc3bdb        4 years ago         209MB
 hypriot/rpi-node            latest                c7a24b17fa2e        4 years ago         494MB
-hypriot/rpi-consul          latest                879ac05d5353        6 years ago         19.7MB
-hypriot/rpi-redis           latest                c06243ca8f1b        6 years ago         117MB
 hypriot/rpi-busybox-httpd   latest                fbd9685c5ffc        7 years ago         2.16MB
 </pre>
 <pre>
