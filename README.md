@@ -3,6 +3,8 @@ https://dapr.io/
 
 # auth for api gateway
 ## sudo htpasswd -c htpasswd uid
+### header Authorization = Basic dWlkOnB3ZA==
+
 <pre>
     location /v1.0/ {
         auth_basic           "DAPR Service Area ";
